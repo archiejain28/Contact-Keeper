@@ -2,8 +2,9 @@
 /node_modules
 /.pnp
 .pnp.js
+production.json
 default.json
-
+/config
 
 
 # testing
