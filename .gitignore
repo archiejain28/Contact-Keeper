@@ -3,7 +3,7 @@
 /.pnp
 .pnp.js
 default.json
-production.json
+
 
 # testing
 /coverage
