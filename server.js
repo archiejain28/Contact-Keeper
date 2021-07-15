@@ -12,10 +12,6 @@ connectDB();
 
 const PORT = process.env.PORT || 5000;
 
-app.get("/", (req, res) => {
-  res.send("welcome to the app");
-});
-
 app.use("/users", require("./routes/user.js"));
 app.use("/contacts", require("./routes/contact.js"));
 app.use("/auth", require("./routes/auth.js"));
